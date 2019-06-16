@@ -22,4 +22,4 @@ Application includes a main() method that autowires an instance of CustomerRepos
 
 Spring Boot by default attempts to connect to a locally hosted instance of MongoDB. But I have embedded mongodb in the application so it will connect to it automatically. 
 
-Since 'spring-boot-starter-data-mongodb' is on classpath, mongoTemplate bean will be created and injected automatically in CustomerRepository. 
+Since 'spring-boot-starter-data-mongodb' is on classpath, mongoTemplate bean will be created and injected automatically in CustomerRepository. citation: https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-nosql.html#boot-features-mongo-template
